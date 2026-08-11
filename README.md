@@ -13,17 +13,17 @@
 
 ## Overview
 
-SHARP studies Socially Shared Regulation of Learning (SSRL): moments
-where a group of students collaboratively regulates cognition,
-motivation, or emotion during a task. Using the MSSRL dataset, we
-combine three synchronized modalities around each annotated SSRL event,
-electrodermal activity, facial affect, and eye gaze, to characterize how
-they diverge across event types and to benchmark fusion strategies for
-classifying events as Negative (conflict), Positive (coordination), or
-Regulate (explicit joint regulation).
+A Socially Shared Regulation of Learning (SSRL) event is a moment where
+a group of students collaboratively regulates cognition, motivation, or
+emotion during a task. This code studies SSRL events in the MSSRL
+dataset using three synchronized modalities recorded around each one:
+electrodermal activity, facial affect, and eye gaze. It characterizes
+how the three diverge across event types, benchmarks fusion strategies
+for classifying each event as Negative (conflict), Positive
+(coordination), or Regulate (explicit joint regulation), and reproduces
+every table and figure in the paper.
 
-This code reproduces every table and figure in the paper. The sensor
-dataset itself is not redistributed here (see
+The sensor dataset itself is not redistributed here (see
 [Data availability](#data-availability)).
 
 ## Results
