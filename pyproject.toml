@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sharp-ssrl"
+version = "0.1.0"
+description = "Multimodal analysis for Socially Shared Regulation in Collaborative Learning (SSRL) — code release for the 4DMR 2026 workshop paper"
+requires-python = ">=3.9"
+dependencies = [
+    "numpy==1.23.5",
+    "pandas==2.0.3",
+    "scipy==1.10.1",
+    "scikit-learn==1.3.2",
+    "torch==2.4.1",
+    "matplotlib==3.7.5",
+    "openpyxl==3.1.5",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]

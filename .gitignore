@@ -1,0 +1,17 @@
+# Internal-only notes, not part of the public release
+CODE_REQUIREMENTS.md
+
+# Python
+__pycache__/
+*.pyc
+*.egg-info/
+.ipynb_checkpoints/
+
+# Data (not redistributed, see README "Data availability")
+raw_data/
+processed_data/
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
